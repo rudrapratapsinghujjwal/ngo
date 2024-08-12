@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #340ab3;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+header nav img {
+  width: 150px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin: 0 1rem;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav button {
+  background: black;
+  border-color: #ffffff;
+  border: 50px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background-image: url(https://si.wsj.net/public/resources/images/B3-FU698_202001_IM_20200102125854.gif);
+}
+
+.hero-text {
+  z-index: 1;
+}
+.hero-text h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.hero-text button {
+  background: #340ab3;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.content-section {
+  padding: 2rem;
+  text-align: center;
+}
+.content-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.ngo {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+.ngo h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.ngo button {
+  background: #340ab3;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+form label {
+  margin-top: 1rem;
+}
+form input, form textarea, form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+form button {
+  background: #340ab3;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+footer {
+  background: #340ab3;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+#volunteer {
+  background-color: #0a3cce;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.volunteer-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.volunteer-intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.volunteer-intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.volunteer-opportunities {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.volunteer-opportunities h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.volunteer-opportunities ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.volunteer-opportunities ul li {
+  margin-bottom: 10px;
+}
+
+.volunteer-stories {
+  margin-bottom: 40px;
+}
+
+.volunteer-stories h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.volunteer {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer h3 {
+  margin-top: 0;
+}
+
+.volunteer p {
+  font-size: 1rem;
+}
+
+.volunteer-application {
+  text-align: center;
+}
+
+.volunteer-application h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.volunteer-application p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.volunteer-application .btn {
+  background-color: #fff;
+  color: #0a3cce;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.volunteer-application .btn:hover {
+  background-color: #e0e0e0;
+}

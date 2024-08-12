@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Animal Listing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ngos.html">NGOs</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Volunteer.html">Volunteer</a></li>
+            </ul>
+            <button>Donate Now</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1 style="color: blue;">Find Your Perfect Companion</h1>
+            <button onclick="scrollToSection('mission')">Get Started</button>
+        </div>
+    </section>
+
+    <section id="mission" class="content-section">
+        <h2>Our Mission</h2>
+        <p>Our mission is to create a world where every animal finds a loving and caring home. We aim to bridge the gap between compassionate individuals and dedicated animal welfare organizations. By providing a platform that showcases animals in need and the NGOs that care for them, we strive to make the process of adoption and support easier, more transparent, and more efficient.
+            We believe that every animal deserves a chance to be loved and cared for. Our platform connects animal lovers with NGOs, making it simple to find, adopt, or support an animal in need. We are committed to raising awareness about animal welfare issues and promoting the humane treatment of all animals.</p>
+   
+            <h2>Our Vision</h2>
+            <p>Our vision is to create a compassionate community where all animals are treated with respect and love. We envision a world where animal welfare is a priority, and every animal has a chance to thrive in a safe and nurturing environment. By fostering collaboration between NGOs and the public, we aim to reduce the number of homeless and mistreated animals and ensure that every animal finds its forever home.</p>
+        </section>
+
+    <section id="ngos" class="content-section">
+        <h2>Featured NGOs</h2>
+        <div class="ngo">
+            <h3>NGO 1</h3>
+            <p>NGO 1 is dedicated to rescuing and rehabilitating stray animals.</p>
+            <button onclick="location.href='ngo1.html'">Learn More</button>
+        </div>
+        <div class="ngo">
+            <h3>NGO 2</h3>
+            <p>NGO 2 focuses on providing medical care and shelter to abandoned pets.</p>
+            <button onclick="location.href='ngo2.html'">Learn More</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NGO Animal Listing. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
